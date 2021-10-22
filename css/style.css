@@ -21,7 +21,6 @@ body {
 }
 
 main {
-  background: url(/img/background.svg);
   width: 375px;
   height: 812px;
   z-index: 1;
@@ -55,6 +54,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.principal {
+  background: url(/img/background.svg);
 }
 
 .container {
