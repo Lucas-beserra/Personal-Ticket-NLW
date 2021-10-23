@@ -1,3 +1,5 @@
+// INSERÇÃO DOS LINKS ATRAVÉS DO JS //
+
 const links = {
   youtube: 'channel/UC8ICFUKGsJFIQwOhna61OZg',
   instagram: 'lucas_beserra88',
@@ -14,6 +16,8 @@ function changeLinksSocialMedia() {
 
 changeLinksSocialMedia()
 
+// CONSUMO DA API DO GITHUB //
+
 function getGitHubProfileInfos() {
   const url = `https://api.github.com/users/${links.github}`
 
@@ -29,23 +33,12 @@ function getGitHubProfileInfos() {
 
 getGitHubProfileInfos()
 
-// ANIMAÇÃO DO H1 E SAIBA MAIS //
+// ANIMAÇÃO DO USERNAME GITHUB //
 
-var link = document.getElementById('userGitHubLink')
-var saibaMais = document.getElementById('saiba-mais')
-
-link.addEventListener('mouseover', function () {
+userGitHubLink.addEventListener('mouseover', function () {
   this.classList.add('link')
 })
 
-link.addEventListener('mouseleave', function () {
+userGitHubLink.addEventListener('mouseleave', function () {
   this.classList.remove('link')
-})
-
-saibaMais.addEventListener('mouseover', function () {
-  this.classList.add('saiba-mais')
-})
-
-saibaMais.addEventListener('mouseleave', function () {
-  this.classList.remove('saiba-mais')
 })
