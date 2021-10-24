@@ -155,14 +155,6 @@ ul {
     height: 100vh;
   }
 
-<<<<<<< HEAD
-  h2 {
-    margin-top: -14rem;
-    color: var(--gray);
-  }
-
-=======
->>>>>>> 1c5205bd1465201054795b5df1e500ef01ebc843
   .avatar {
     width: 7rem;
     margin: 14.3rem auto 0;
@@ -184,25 +176,4 @@ ul {
     width: 8rem;
     height: 9.5rem;
   }
-<<<<<<< HEAD
-
-  .buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: -10rem;
-    gap: 2rem;
-  }
-
-  .buttons button {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 10%;
-    border-style: solid;
-    border-width: 0 1px 2px 0;
-    width: 3rem;
-    height: 3rem;
-  }
-=======
->>>>>>> 1c5205bd1465201054795b5df1e500ef01ebc843
 }
