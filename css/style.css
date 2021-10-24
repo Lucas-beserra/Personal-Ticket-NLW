@@ -155,11 +155,14 @@ ul {
     height: 100vh;
   }
 
+<<<<<<< HEAD
   h2 {
     margin-top: -14rem;
     color: var(--gray);
   }
 
+=======
+>>>>>>> 1c5205bd1465201054795b5df1e500ef01ebc843
   .avatar {
     width: 7rem;
     margin: 14.3rem auto 0;
@@ -181,6 +184,7 @@ ul {
     width: 8rem;
     height: 9.5rem;
   }
+<<<<<<< HEAD
 
   .buttons {
     display: flex;
@@ -199,4 +203,6 @@ ul {
     width: 3rem;
     height: 3rem;
   }
+=======
+>>>>>>> 1c5205bd1465201054795b5df1e500ef01ebc843
 }
